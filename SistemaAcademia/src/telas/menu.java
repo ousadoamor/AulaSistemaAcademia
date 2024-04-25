@@ -38,7 +38,18 @@ public class menu extends javax.swing.JFrame {
         jMenu8 = new javax.swing.JMenu();
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenu9 = new javax.swing.JMenu();
+        jMenu10 = new javax.swing.JMenu();
+        jMenu11 = new javax.swing.JMenu();
+        jMenu12 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
+        jMenu13 = new javax.swing.JMenu();
+        jMenuItem11 = new javax.swing.JMenuItem();
+        jMenuItem12 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenu5 = new javax.swing.JMenu();
 
@@ -85,15 +96,56 @@ public class menu extends javax.swing.JFrame {
         jMenuItem5.setText("Supino retoc/barra");
         jMenu8.add(jMenuItem5);
 
+        jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/gym_equitment_chest_machine_fitness_sport_icon_224763.png"))); // NOI18N
         jMenuItem6.setText("voador");
         jMenu8.add(jMenuItem6);
 
+        jMenuItem7.setText("crucifixo incli c/hanter");
+        jMenu8.add(jMenuItem7);
+
+        jMenuItem8.setText("croos over");
+        jMenu8.add(jMenuItem8);
+
+        jMenuItem9.setText("supino incli c/halter");
+        jMenu8.add(jMenuItem9);
+
+        jMenuItem10.setText("supino maquina");
+        jMenu8.add(jMenuItem10);
+
         jMenu2.add(jMenu8);
+
+        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/2_116664.png"))); // NOI18N
+        jMenu9.setText("Costa");
+        jMenu2.add(jMenu9);
+
+        jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Mayor-Gym-icon_30305.png"))); // NOI18N
+        jMenu10.setText("Biceps/Triceps");
+        jMenu2.add(jMenu10);
+
+        jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/leg_sport_13295.png"))); // NOI18N
+        jMenu11.setText("perna");
+        jMenu2.add(jMenu11);
+
+        jMenu12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/shoulder_male_icon_143242.png"))); // NOI18N
+        jMenu12.setText("Ombro");
+        jMenu2.add(jMenu12);
 
         jMenuBar1.add(jMenu2);
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/carduse_card_payment_5122.png"))); // NOI18N
         jMenu3.setText("Financeiro");
+
+        jMenu13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/carduse_card_payment_5122.png"))); // NOI18N
+        jMenu13.setText("Cartão");
+
+        jMenuItem11.setText("Débito");
+        jMenu13.add(jMenuItem11);
+
+        jMenuItem12.setText("Crédito");
+        jMenu13.add(jMenuItem12);
+
+        jMenu3.add(jMenu13);
+
         jMenuBar1.add(jMenu3);
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/construction_spanner_settings_repair_tool_setting_screwdriver_service_wrench_icon_262327.png"))); // NOI18N
@@ -157,6 +209,10 @@ public class menu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu10;
+    private javax.swing.JMenu jMenu11;
+    private javax.swing.JMenu jMenu12;
+    private javax.swing.JMenu jMenu13;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
@@ -164,12 +220,19 @@ public class menu extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     // End of variables declaration//GEN-END:variables
 }
