@@ -8,12 +8,12 @@ package telas;
  *
  * @author aluno
  */
-public class menu extends javax.swing.JFrame {
+public class Menu extends javax.swing.JFrame {
 
     /**
      * Creates new form menu
      */
-    public menu() {
+    public Menu() {
         initComponents();
     }
 
@@ -43,7 +43,14 @@ public class menu extends javax.swing.JFrame {
         jMenuItem9 = new javax.swing.JMenuItem();
         jMenuItem10 = new javax.swing.JMenuItem();
         jMenu9 = new javax.swing.JMenu();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
+        jMenuItem17 = new javax.swing.JMenuItem();
         jMenu10 = new javax.swing.JMenu();
+        jMenuItem18 = new javax.swing.JMenuItem();
+        jMenuItem19 = new javax.swing.JMenuItem();
         jMenu11 = new javax.swing.JMenu();
         jMenu12 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
@@ -116,10 +123,36 @@ public class menu extends javax.swing.JFrame {
 
         jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/2_116664.png"))); // NOI18N
         jMenu9.setText("Costa");
+
+        jMenuItem13.setText("Puxada aberta no pulley");
+        jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem13ActionPerformed(evt);
+            }
+        });
+        jMenu9.add(jMenuItem13);
+
+        jMenuItem14.setText("Remada unilateral");
+        jMenu9.add(jMenuItem14);
+
+        jMenuItem15.setText("Remada cavalinho");
+        jMenu9.add(jMenuItem15);
+
+        jMenuItem16.setText("Pullover polia");
+        jMenu9.add(jMenuItem16);
+
+        jMenuItem17.setText("Remada baixa");
+        jMenu9.add(jMenuItem17);
+
         jMenu2.add(jMenu9);
 
         jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Mayor-Gym-icon_30305.png"))); // NOI18N
         jMenu10.setText("Biceps/Triceps");
+
+        jMenuItem18.setText("Rosca direta c/barra");
+        jMenu10.add(jMenuItem18);
+        jMenu10.add(jMenuItem19);
+
         jMenu2.add(jMenu10);
 
         jMenu11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/leg_sport_13295.png"))); // NOI18N
@@ -172,6 +205,10 @@ public class menu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem13ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -189,20 +226,21 @@ public class menu extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Menu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new menu().setVisible(true);
+                new Menu().setVisible(true);
             }
         });
     }
@@ -226,6 +264,13 @@ public class menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
     private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
+    private javax.swing.JMenuItem jMenuItem18;
+    private javax.swing.JMenuItem jMenuItem19;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
