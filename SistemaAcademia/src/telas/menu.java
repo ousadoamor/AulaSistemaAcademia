@@ -57,6 +57,7 @@ public class Menu extends javax.swing.JFrame {
         jMenu13 = new javax.swing.JMenu();
         jMenuItem11 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem20 = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenu5 = new javax.swing.JMenu();
 
@@ -179,6 +180,9 @@ public class Menu extends javax.swing.JFrame {
 
         jMenu3.add(jMenu13);
 
+        jMenuItem20.setText("Pix/Dinheiro");
+        jMenu3.add(jMenuItem20);
+
         jMenuBar1.add(jMenu3);
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/construction_spanner_settings_repair_tool_setting_screwdriver_service_wrench_icon_262327.png"))); // NOI18N
@@ -272,6 +276,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem18;
     private javax.swing.JMenuItem jMenuItem19;
     private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem20;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
